@@ -112,6 +112,21 @@ python3 sync_all.py
   python3 sync_ssl_qiniu.py
   ```
 
+## 自动同步 (可选)
+
+你可以设置定时任务 (Cron Job) 来自动同步证书。例如，每月 1 号凌晨 2:00 执行同步脚本：
+
+1. 打开 crontab 编辑器:
+   ```bash
+   crontab -e
+   ```
+
+2. 添加以下行:
+   ```cron
+   0 2 1 * * /usr/bin/python3 /path/to/sync-cdn-ssl/sync_all.py >> /var/log/sync-cdn-ssl.log 2>&1
+   ```
+   *请确保将 `/path/to/sync-cdn-ssl/` 替换为你仓库的实际路径。*
+
 ## 注意事项
 
 - 确保运行脚本的用户对 `BASE_SSL_PATH` 目录和证书文件拥有读取权限。

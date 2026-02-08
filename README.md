@@ -112,6 +112,21 @@ You can also run the scripts for specific providers independently:
   python3 sync_ssl_qiniu.py
   ```
 
+## Automated Sync (Optional)
+
+You can set up a cron job to automatically sync certificates. For example, to run the sync script on the 1st day of every month at 02:00 AM:
+
+1. Open the crontab editor:
+   ```bash
+   crontab -e
+   ```
+
+2. Add the following line:
+   ```cron
+   0 2 1 * * /usr/bin/python3 /path/to/sync-cdn-ssl/sync_all.py >> /var/log/sync-cdn-ssl.log 2>&1
+   ```
+   *Make sure to replace `/path/to/sync-cdn-ssl/` with the actual path to your repository.*
+
 ## Notes
 
 - Ensure that the user running the script has read permissions for the `BASE_SSL_PATH` directory and the certificate files.
