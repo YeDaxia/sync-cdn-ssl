@@ -132,6 +132,10 @@ You can set up a cron job to automatically sync certificates. For example, to ru
 - Ensure that the user running the script has read permissions for the `BASE_SSL_PATH` directory and the certificate files.
 - The tool uses the domain name as the suffix to find certificate files.
 
+## Result
+
+<img width="1952" height="976" alt="ALI CDN" src="https://github.com/user-attachments/assets/37698038-e0cb-4a74-b819-4d8b54f83781" />
+
 ## Connect with Me
 
 - **X (Twitter)**: [@LuffyDaxia](https://x.com/LuffyDaxia)
