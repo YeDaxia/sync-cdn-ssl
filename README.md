@@ -1,5 +1,7 @@
 # SSL Certificate Sync Tool
 
+English | [中文](README_CN.md)
+
 This tool automatically synchronizes SSL certificates to **Alibaba Cloud (CDN & DCDN)** and **Qiniu Cloud**. It is designed to simplify the process of updating SSL certificates across multiple content delivery networks.
 
 ## Features
