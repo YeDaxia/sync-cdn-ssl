@@ -116,3 +116,9 @@ python3 sync_all.py
 
 - 确保运行脚本的用户对 `BASE_SSL_PATH` 目录和证书文件拥有读取权限。
 - 工具使用域名作为后缀来查找证书文件。
+
+## 联系我
+
+- **X (推特)**: [@LuffyDaxia](https://x.com/LuffyDaxia)
+- **小红书**: [LuffyDaxia](https://www.xiaohongshu.com/user/profile/5f49259400000000010085fd)
+

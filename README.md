@@ -116,3 +116,9 @@ You can also run the scripts for specific providers independently:
 
 - Ensure that the user running the script has read permissions for the `BASE_SSL_PATH` directory and the certificate files.
 - The tool uses the domain name as the suffix to find certificate files.
+
+## Connect with Me
+
+- **X (Twitter)**: [@LuffyDaxia](https://x.com/LuffyDaxia)
+- **Xiaohongshu (Red)**: [LuffyDaxia](https://www.xiaohongshu.com/user/profile/5f49259400000000010085fd)
+
